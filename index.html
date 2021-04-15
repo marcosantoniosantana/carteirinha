@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt">
+	<meta charset="utf-8">
+	<title>Carteirinha </title>
+
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="janela.js"></script>
+
+	<section class="system" id="gera-carteira">
+		<h1 class="titulo"> Gerador de carteirinha  Sobrevivente covid-19</h1>
+
+
+		<div class="componentes">
+		<p class="texto"> Qual o seu nome completo <input type="text" id="nome"></p>
+
+		<p class="texto"> Em que ano você nasceu? <input type="text" id="ano"></p>
+
+		<p class="texto"> Cidade e estado em que vc nasceu:<input type="text" id="cidade" placeholder="Amapa-AM"></p>
+
+		<p class="texto"> Você vivenciou os acontecimentos a partir de 2020?<br>
+			<p class="select"> sim: <input type="radio" id="s" name="y"></p>
+				<p class="select"> não: <input type="radio" id="n" name="y">
+
+		<input type="button" value="Gerar documento" onclick="validar()" class="bt-enviar">
+
+				</p>
+			</p>
+
+
+	</div>
+	</section>
+
+	<section class="obj">
+
+	<div class="inf">
+
+		<p class="dados" id="name"></p>
+		<p class="dados" id="pidade"></p>
+		<p class="dados" id="local"></p>
+		<p class="dados" id="num"></p>
+		<figure id="ft"></figure>
+		<div id="botao"></div>
+
+	</div>
+		
+
+	</section>
+
+	<section id="mural">
+
+		
+		
+	</section>
+
+	<footer>
+		
+	</footer>
+
+</body>
+</html>

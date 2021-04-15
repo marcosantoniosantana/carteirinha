@@ -1,0 +1,163 @@
+body{
+	background-image: linear-gradient( 336deg, #000000, #00ff7f);	
+}
+
+.nulo{
+	background-image: linear-gradient( 336deg, #00ff7f, #7fffd4, #00bfff);
+}
+
+.system{
+	margin: 10% auto 0;
+	position: relative;
+	width: 600px;
+	height: 350px;
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.5);
+	backdrop-filter: blur(100px);
+}
+
+.titulo{
+	font-family: Georgia, serif;
+	font-size: 175%;
+	text-align: center;
+	background-color: #ffffff;
+	margin-top: 0;
+}
+
+.componentes{
+	margin: 20px;
+}
+
+.texto{
+	font-size: 130%;
+}
+
+#ano{
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.5);
+}
+
+#dmv{
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.5);
+}
+
+#nome{
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.5);
+}
+
+#cidade{
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.5);
+}
+
+#s{
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.5);
+}
+
+#campo{
+	width: 600px;
+	height: 700px;
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.5);
+	backdrop-filter: blur(30px);
+	margin: 10% auto 0;
+	position: relative;
+}
+
+.obj{
+	margin: 10% auto 0;
+	position: relative;
+	width: 600px;
+	height: 350px;
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.5);
+	border:;
+	backdrop-filter: blur(30px);
+}
+
+.dados{
+	font-size: 100%;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.inf{
+	margin: 30px;
+}
+
+.select{
+	margin-top: -10px;
+}
+
+.bt-enviar{
+	width: 300px;
+	height: 40px;
+	background: rgba(255,255,255,0.1);
+	backdrop-filter: blur(15px);
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 50px;
+	box-shadow: 0px 10px 10px  rgba(0,0,0.1);
+	margin-left: 15%;
+	margin-top: -90px;
+	font-size: 130%;
+	font-family: sans-serif;
+}
+
+.bt-enviar:hover{
+	background: rgba(0,255,127,0.6);
+	backdrop-filter: blur(200px);
+	transition: 1s;
+}
+
+#ft{
+	margin-left: 0px;
+}
+
+#bt{
+	width: 100px;
+	height: 20px;
+	background: rgba(255,255,255,0.1);
+	border:1px solid rgba(255,255,255,0.5);
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 120%;
+}
+
+#bt:hover{
+	background: rgba(0,255,127,0.6);
+	backdrop-filter: blur(200px);
+	transition: 1s;
+}
+
+.titulo-bp{
+	text-align: center;
+	background: rgba(255,255,255);
+	font-size: 250%;
+	font-family: sans-serif;
+	margin-top: 0;
+}
+
+
+#caixa{
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.5);
+	width: 80%;
+	height: 5%;
+	margin-top: 70%;
+}
+
+#send{
+	height: 5%;
+}
+
+#texto{
+	background: rgba(255,255,255);
+	border-radius: 5px 30px 30px 30px;
+	width: 490px;
+	height: 145px;
+	margin-left: 50px;
+	size: none;
+}
